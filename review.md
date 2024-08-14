@@ -40,3 +40,13 @@ git reset HEAD filename - removes from staging area
 git reset commit_SHA
 * first 7: git reset 5d69206
 git checkout -- filename (same as HEAD, shortcut)
+
+git log
+* --oneline
+* -S "keyword" (ie "Add")
+* --online --graph
+* --amend (allows you to correct mistakes and edit commits easily instead of creating a completely new one.)... $ git commit --amend --no-edit
+
+$ git config --global alias.co "checkout"
+$ git config --global alias.br "branch"
+$ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
