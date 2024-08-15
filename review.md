@@ -54,3 +54,4 @@ $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
 
 
 alias greet3="./script.sh 3"
+git remote -v
