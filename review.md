@@ -50,3 +50,7 @@ git log
 $ git config --global alias.co "checkout"
 $ git config --global alias.br "branch"
 $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
+
+
+
+alias greet3="./script.sh 3"
