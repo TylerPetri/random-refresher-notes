@@ -68,3 +68,10 @@ let a = (data) => {console.log(`Celebrate ${data}`)
 let myEmitter = new events.EventEmitter()
 myEmitter.on('c', a)
 myEmitter.emit('c', 'goot times, come on!')
+
+Buffer --> alloc, toStrin, from, concat
+fs --> readFile, createReadStream, createWriteStream('output.txt') --> const.write('notporn'); write(); end();
+readline --=> createInterface({input: fs.createReadStream('test.txt')}).. on('line', (flineLine)=>{console.log(`The line read: ${fileLin}`)})
+setImmediate(()=>{})
+
+npm i --production --> leaves out devdeps
