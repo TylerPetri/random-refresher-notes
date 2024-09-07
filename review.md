@@ -55,3 +55,6 @@ $ git config --global alias.glop "log --pretty=format:"%h %s" --graph"
 
 alias greet3="./script.sh 3"
 git remote -v
+
+sudo lsof -i :5432
+sudo kill -u postgres
