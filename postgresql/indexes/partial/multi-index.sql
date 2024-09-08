@@ -1,0 +1,3 @@
+-- If searches are most often for only one of the columns, then you should use that single index.
+-- If searches are most often last_name and first_name, then you should have a multicolumn index.
+-- If the searches are frequent and evenly spread among first_name alone, last_name alone, and the combination of the two; that is a situation where you would want to have all three indexes (two single indexes and one multicolumn index).
